@@ -11,6 +11,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "bootstrap": "^4.5.3",
+    "deploy-react": "^2.2.11",
     "formik": "^2.2.5",
     "gh-pages": "^3.1.0",
     "jquery": "^3.5.1",
