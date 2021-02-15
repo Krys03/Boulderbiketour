@@ -1,0 +1,20 @@
+.bg-t{
+    background-image: url("../components/redb1.png"), linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0));
+    background-size:cover;
+    height: 600px;
+    
+   
+    transition: transform .4s;
+}
+
+.bg-blue{
+    background-image: url("../components/mtbnews2.png"), linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0));
+    background-size:cover;
+    height: 600px;
+    transition: transform .4s;
+
+}
+
+.col{
+    padding:0px;
+}
