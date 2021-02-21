@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Countdown from '../Countdown';
 import Carouselath from '../Carouselath';
-import Duonews from '../Duonews';
 import Hero from '../Hero';
 import Contestbanner from '../Contestbanner';
+import Mtbpicture from '../Mtbpicture';
 
 
 
@@ -22,8 +22,8 @@ class Home extends Component {
             <Countdown date={`${year}-12-24T10:00:00`} />
             
             <Carouselath/>
-            <Duonews />
-            <img src="sponsors2.svg" />
+            <Mtbpicture />
+            <img src="../sponsors2.svg" />
             
 
 

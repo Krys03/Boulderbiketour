@@ -2,9 +2,11 @@ import React from 'react'
 import './Carouselath.css'
 import {Link} from 'react-router-dom'
 
+
 function Carouselath() {
     
     return (
+      
         <div className="backgrd">
         
         <div className=" text-center p-3 background text-white ">
@@ -16,7 +18,7 @@ function Carouselath() {
         <div id="recipeCarousel" className="carousel slide w-100" data-ride="carousel">
           <div className="carousel-inner w-100" role="listbox">
             <div className="carousel-item row no-gutters active  ">
-              <div className="col-2 float-left  "><img className="img-fluid" src="./athcard1.png" /></div>
+              <div className="col-2 float-left  "><img className="img-fluid" src="./athcard1.png" alt="ath01" /></div>
               <div className="col-2 float-left "><img className="img-fluid" src="./athcard2.png" /></div>
               <div className="col-2 float-left "><img className="img-fluid" src="./athcard3.png" /></div>
               <div className="col-2 float-left "><img className="img-fluid" src="./athcard4.png" /></div>

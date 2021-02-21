@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Krys03.github.io/Boulderbike",
+  
   "name": "project7",
   "version": "0.1.0",
   "private": true,
@@ -31,8 +31,7 @@
     "yup": "^0.31.0"
   },
   "scripts": {
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
+    
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

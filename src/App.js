@@ -22,8 +22,9 @@ function App() {
     <Navigationbar />
     <Hero />
     
-      <Switch>
-      <Route path='/Home' component={Home} />
+      <Switch> 
+          <Route exact path='/' component={Home} />
+          <Route path='/Home' component={Home} />
           <Route path='/Location' component={Location} />
           <Route path='/Athletes' component={Athletes} />
           <Route path='/Gallery' component={Gallery} />
@@ -31,6 +32,9 @@ function App() {
           
           
       </Switch>
+     
+      
+      
       
       <Footer />
     </Router>
